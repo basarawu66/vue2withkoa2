@@ -20,7 +20,7 @@ app
 // console.log('here1');
 //app.use(koastatic(path.join(__dirname, "/dist")));
 // app.use(koastatic(path.join(__dirname, "/test")));
-app.use(koastatic(path.join(__dirname, "/")));
+app.use(koastatic(path.join(__dirname, "/dist")));
 
 app.on('error', (err, ctx) => {
   console.error('server error', err, ctx);
